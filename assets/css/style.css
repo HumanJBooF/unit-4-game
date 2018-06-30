@@ -15,6 +15,10 @@ body {
     
 }
 
+.fighters {
+    height: 100px;
+}
+
 .sfImage {
     height: 250px;
     margin-top: 50px;

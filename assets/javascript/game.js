@@ -1,10 +1,12 @@
 $(function () {
 
-    var randomNum = Math.floor(Math.random() * 102 + 19)
+    var randomNum = "";
     var losses = 0;
     var wins = 0;
     var score = 0;
-    var images = ["./assets/images/Akuma.png","assets/images/ken.jpg","assets/images/vega.png","assets/images/ryusf.jpg"];
+    var images = ["./assets/images/Akuma1.png","assets/images/pfken.png","assets/images/vega.png","assets/images/ryusf.jpg"];
+
+    randomNum = Math.floor(Math.random() * 102 + 19);
 
 
     $('.current').text(randomNum);
@@ -21,7 +23,17 @@ $(function () {
         fighters.attr('src', images[i]);
         fighters.attr('value', Math.floor(Math.random() * 11 + 1));
         $('.gems').append(fighters);
+        
     }
+
+
+    
+
+    $('.fighters').on("click", function() {
+        score += parseInt($(this).attr('value'));
+        console.log(score);
+        $('.score').text(score);
+    })
 
 
 
