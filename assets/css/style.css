@@ -1,6 +1,23 @@
-.sfImage {
-    margin: 0 auto;
-    width: 200px;
+
+body {
+   
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+.street {
+   
+    width: 300px;
     height: 200px;
+    
+}
+
+.sfImage {
+    height: 250px;
+    margin-top: 50px;
+    
 }
 
