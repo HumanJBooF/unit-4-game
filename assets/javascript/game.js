@@ -4,7 +4,7 @@ $(function () {
     var losses = 0;
     var wins = 0;
     var score = 0;
-    var images = ["./assets/images/Akuma1.png", "assets/images/pfken.png", "assets/images/vega.png", "assets/images/ryusf.jpg"];
+    var images = ["./assets/images/ryunobg.png", "assets/images/veganobg.png", "assets/images/sagatnobg.png", "assets/images/kumanobgpng.png"];
 
 
     //put the current random number to match into a function
@@ -26,9 +26,9 @@ $(function () {
 
     //function to reset all text on screen
     function resetText() {
-        $('.current').text(randomNum);
-        $('.wins').text("wins: " + wins);
-        $('.losses').text("losses: " + losses);
+        $('.current').text("Target: " + randomNum);
+        $('.wins').text("Wins: " + wins);
+        $('.losses').text("Losses: " + losses);
         $('.score').text('Your score is: ');
         $('.fighters').empty();
     }

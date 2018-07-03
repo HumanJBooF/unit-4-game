@@ -8,35 +8,56 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="./assets/javascript/game.js"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:700|Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Street Fighter Collector</title>
 
 </head>
+
     <body>
-        <div class="container">
-            <div class="header">
-                <img class="street" src="./assets/images/SF_Series_Logo.png" alt="sffont">
-            </div>
-        
-        
-            <h1 class="how">How to play</h1>
-            <ul>
-                <li>stuff here</li>
-                <li>stuff here</li>
-                <li>stuff here</li>
-            </ul>
-        
-            <div class="box">
+
+        <div class="header">
+            <img class="offset-4 street col-md-4 mb-5 shadow-lg" src="./assets/images/SF_Series_Logo.png" alt="sffont">
+        </div>
+
+        <div class="container-fluid">
+
+
+        </div>
+        </div>
+        <div class="row">
+            <div class="box1 offset-1 text-center border border-dark col-md-2 bg-light h-25 p-5 mt-5 rounded-circle">
                 <div class="current"></div>
             </div>
-            <div class="box1">
+
+
+            <ul class="list-group bg-dark text-white rounded border border-light offset-1 col-md-4 p-3 mb-5  text-center">
+                <li>
+                    <h1>How to Play</h1>
+                </li>
+                <li class="list-item">At the start of the game there will be a random target number displayed.</li>
+                <li class="list-item">Your objective is to match that number!</li>
+                <li class="list-item">Each Street Fighter will be assigned a random value.</li>
+                <li class="list-item">This value will be hidden, when you click on one of the fighters your score will go up based on the value of
+                    the fighter!</li>
+                <li class="list-item">If you can match the random number, you win! but..... if you go over the number, you lose!</li>
+                <li class="list-item">Good Luck!</li>
+            </ul>
+
+            <div class="box offset-1 border border-dark bg-light h-25 col-md-2 mt-5 p-5 rounded-circle text-center text-dark">
                 <div class="wins"></div>
                 <div class="losses"></div>
             </div>
-            <div class="score"></div>
-        
-            <div class="gems">
+
+
+        </div>
+        <div class="row">
+            <div class="score offset-1 col-md-2 p-5 h-25 border border-dark rounded-circle bg-light text-center"></div>
+
+            <div class="gems offset-1">
             </div>
         </div>
+        </div>
     </body>
+
 </html>

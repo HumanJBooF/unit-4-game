@@ -1,27 +1,15 @@
-
 body {
-   
-    width: 100%;
-}
-
-.container {
-    text-align: center;
-}
-
-.street {
-   
-    width: 300px;
-    height: 200px;
-    
+    background: url(../images/stage1.jpg)no-repeat center fixed;
+  
+    font-family: 'Inconsolata', monospace !important;
 }
 
 .fighters {
-    height: 100px;
-}
-
-.sfImage {
     height: 250px;
-    margin-top: 50px;
-    
+    padding: 0px 25px;
 }
 
+.box, .box1, .score {
+    font-size: 25px;
+    font-weight: bolder;
+}
