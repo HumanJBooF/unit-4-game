@@ -1,15 +1,31 @@
 body {
     background: url(../images/stage1.jpg)no-repeat center fixed;
-  
-    font-family: 'Inconsolata', monospace !important;
+    font-family: 'Eagle Lake', cursive !important;
+}
+
+.street {
+ opacity: 0.8;
 }
 
 .fighters {
     height: 250px;
     padding: 0px 25px;
+    cursor: pointer;
 }
 
 .box, .box1, .score {
     font-size: 25px;
     font-weight: bolder;
+    box-shadow: 21px 29px 49px 15px rgba(36,9,43,0.8);
+    border: 4pt solid rgb(251,202,26);
+}
+
+h1 {
+    border-bottom: 2pt solid white;
+}
+
+.list-group {
+    box-shadow: 21px 29px 49px 15px rgba(36,9,43,0.8);
+    border: 5pt solid rgba(249,26,4, 0.6);
+    border-radius: 73px 73px 73px 73px;
 }

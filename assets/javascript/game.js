@@ -50,7 +50,8 @@ $(function () {
         score += parseInt($(this).attr("value"));
         $(".score").text('Your score is: ' + score);
         if (score == randomNum) {
-            wins++;                 //If your score equals the randomly generated number you win!
+            wins++;                //If your score equals the randomly generated number you win!
+            
             resetAll();
         }
         else if (score > randomNum) {
@@ -59,7 +60,10 @@ $(function () {
         };
     }
 
-    //tried to make ,fighters work but after some research this was the way to get it all to come together
+
+    
+    //click event!
     $(document).on("click", '.fighters', fighterClick);
+
 
 });
