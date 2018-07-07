@@ -5,15 +5,14 @@ $(function () {
     var wins = 0;
     var score = 0;
     var images = ["./assets/images/ryunobg.png", "assets/images/veganobg.png", "assets/images/sagatnobg.png", "assets/images/kumanobgpng.png"];
-
+    
 
     //put the current random number to match into a function
     function randomNumfun() {
         randomNum = Math.floor(Math.random() * 102 + 19); //current randomly generated number
     }
 
-    //this was my attempt at adding images and giving them a random value from 1 - 12.. 
-    //thinking theres an easier way but this is better then rewriting math.floor 4 times
+//adding images to html with a random value of 1-12
     function fighterS() {
         for (var i = 0; i < images.length; i++) {
             var fighters = $('<img>');
@@ -51,7 +50,6 @@ $(function () {
         $(".score").text('Your score is: ' + score);
         if (score == randomNum) {
             wins++;                //If your score equals the randomly generated number you win!
-            
             resetAll();
         }
         else if (score > randomNum) {
@@ -59,11 +57,17 @@ $(function () {
             resetAll();
         };
     }
+       
+   $('#soundbutton').on('click', function(){
+       console.log('wegotclick');
+ 
+   })
 
 
-    
     //click event!
     $(document).on("click", '.fighters', fighterClick);
+ 
+   
 
 
 });
