@@ -58,10 +58,7 @@ $(function () {
         };
     }
        
-   $('#soundbutton').on('click', function(){
-       console.log('wegotclick');
- 
-   })
+
 
 
     //click event!
