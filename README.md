@@ -12,3 +12,6 @@
 * This value will be hidden, when you click on one of the fighters your score will go up based on the value of the fighter!
 * If you can match the random number, you win! but..... if you go over the number, you lose!
 * **Good Luck!**
+
+# live link!
+https://humanjboof.github.io/unit-4-game/

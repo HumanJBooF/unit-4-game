@@ -14,6 +14,7 @@ $(function () {
 
 //adding images to html with a random value of 1-12
     function fighterS() {
+       
         for (var i = 0; i < images.length; i++) {
             var fighters = $('<img>');
             fighters.addClass('fighters');
@@ -39,6 +40,9 @@ $(function () {
         resetText();
 
     }
+   
+
+
     //Game Start 
     randomNumfun();
     resetText();
@@ -63,7 +67,7 @@ $(function () {
 
     //click event!
     $(document).on("click", '.fighters', fighterClick);
- 
+        
    
 
 
