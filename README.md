@@ -1,4 +1,4 @@
-# unit-4-game
+# Street Fighter Clicker
 
 # Welcome!
 
@@ -13,5 +13,18 @@
 * If you can match the random number, you win! but..... if you go over the number, you lose!
 * **Good Luck!**
 
+![sf](./assets/images/main.PNG)
+
+## Tech used
+- HTML5
+- Bootstrap 4
+- CSS3
+- Javascript
+- Jquery
+
 # live link!
-https://humanjboof.github.io/unit-4-game/
+[Street Fighter Clicker](https://humanjboof.github.io/unit-4-game/)
+
+## Author
+
+### __Joshua LeBoeuf__ 
